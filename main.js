@@ -3,8 +3,6 @@ import data from './data.js';
 const output = document.getElementById('content');
 output.innerHTML = `<h1>Here we go!</h1>`;
 
-const href = location.href.replace('https://', '').split('/')[0];
-
 const parts = [`<header>
     <div>
         <h1>${data.name.en}</h1>
@@ -17,10 +15,8 @@ const parts = [`<header>
         <li>${data.location}</li>
         <li><a href="mailto:${data.email}">${data.email}</a></li>
         <li><a href="tel:${data.phone}">${data.phone}</a></li>
-        <li><a href="${data.github}">${data.github}</a></li>
+        <li><a href="https://${data.github}">${data.github}</a></li>
     </ul>
-
-    <div class="abs-right-bottom print-only">Latest CV: <a href="${href}">${href}</a></div>
 </header>`];
 
 const techSkills = data.techSkills.map(
@@ -28,12 +24,17 @@ const techSkills = data.techSkills.map(
     <p>${e[1]}</p>`
 ).join('');
 
+const href = location.href.replace('https://', '').split('/')[0];
+
 parts.push(`<main>
     <hr>
     <h3>Summary</h3>
     <p>${data.summary}</p>
     <h3>Technical Skills</h3>
     ${techSkills}
+    <div class="vert-sp-1"></div>
+    <p class="text-right">Latest CV: <a href="https://${href}">${href}</a></p>
 </main>`);
+// print-only
 
 output.innerHTML = parts.join('');

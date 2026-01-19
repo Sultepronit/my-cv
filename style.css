@@ -50,6 +50,10 @@ a:hover {
     height: 1rem;
 }
 
+.text-right {
+    text-align: right;
+}
+
 /* page ----------------- */
 body {
     padding: 0.5rem;
@@ -64,6 +68,14 @@ header {
     justify-content: space-between;
 }
 
+header li::marker {
+    content: '';
+}
+
+main hr {
+    margin-top: 0.5rem;
+}
+
 .abs-right-bottom {
     position: absolute;
     bottom: 0;
@@ -74,5 +86,18 @@ header {
 @media print {
     .print-only {
         display: block;
+    }
+}
+
+/* small display ------------- */
+@media (max-width: 700px) {
+    header {
+        display: block;
+    }
+
+    .contacts {
+        /* margin-top: 0.5em; */
+        margin: 0.5em 0 0 0.5em;
+        /* float: right; */
     }
 }
