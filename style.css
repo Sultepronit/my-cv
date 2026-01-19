@@ -76,6 +76,10 @@ main hr {
     margin-top: 0.5rem;
 }
 
+.exp-list {
+    margin-left: 1em;
+}
+
 .abs-right-bottom {
     position: absolute;
     bottom: 0;

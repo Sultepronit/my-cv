@@ -24,6 +24,8 @@ const techSkills = data.techSkills.map(
     <p>${e[1]}</p>`
 ).join('');
 
+const experienceLis = data.experience.map(e => `<li>${e}</li>`).join('');
+
 const href = location.href.replace('https://', '').split('/')[0];
 
 parts.push(`<main>
@@ -32,9 +34,13 @@ parts.push(`<main>
     <p>${data.summary}</p>
     <h3>Technical Skills</h3>
     ${techSkills}
+    <h3>Education</h3>
+    <p>${data.education}</p>
+    <h3>Experience</h3>
+    <ul class="exp-list">${experienceLis}</ul>
     <div class="vert-sp-1"></div>
-    <p class="text-right">Latest CV: <a href="https://${href}">${href}</a></p>
+    <p class="text-right print-only">Latest CV: <a href="https://${href}">${href}</a></p>
 </main>`);
-// print-only
+// 
 
 output.innerHTML = parts.join('');
