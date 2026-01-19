@@ -1,0 +1,40 @@
+/* common ----------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2 {
+    font-weight: normal;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.aux {
+    color: #919090;
+}
+
+.vert-sp-1 {
+    height: 1rem;
+}
+
+/* page ----------------- */
+body {
+    padding: 0.5rem;
+    max-width: 1000px;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+}
