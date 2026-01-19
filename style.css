@@ -6,16 +6,40 @@
     box-sizing: border-box;
 }
 
-h1, h2 {
-    font-weight: normal;
+html {
+    font-size: 1.1rem;
 }
 
-a {
+h1, h2, h3 {
+    font-weight: normal;
+    color: blue;
+    color: green;
+}
+
+h3 {
+    font-size: 1.4rem;
+    margin-top: 0.3em;
+}
+
+h4 {
+    margin-top: 0.2em;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+a, a:visited {
     text-decoration: none;
+    /* color: green;
+    color: #007bda; */
+    color: #0055ff;
 }
 
 a:hover {
     text-decoration: underline;
+}
+
+.print-only {
+    display: none;
 }
 
 .aux {
@@ -34,7 +58,21 @@ body {
 }
 
 header {
+    position: relative;
     display: flex;
     /* flex-direction: column; */
     justify-content: space-between;
+}
+
+.abs-right-bottom {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+/* print --------------------- */
+@media print {
+    .print-only {
+        display: block;
+    }
 }
