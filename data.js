@@ -31,7 +31,7 @@ const data = {
         ],
         [
             'Backend & Databases',
-            'SQLite, Google App Engine ((serverless)), Google Compute Engine ((VM)), Linux, Docker, Nginx'
+            'Google App Engine ((serverless)), Google Compute Engine ((VM)), Linux, Docker, Nginx, SQLite'
         ],
         [
             'API & AI',
@@ -39,7 +39,7 @@ const data = {
         ]
     ],
     experience: [
-        'Built PWA applications for personal workflow optimization, including multi-platform calculator ([a=calc100.vercel.app]) and language learning tools.',
+        'Built PWA applications for personal workflow optimization, including multi-platform calculator and language learning tools.',
         // 'Developed web-based tools to replace legacy lab software; maintained functionality across outdated Windows systems (XP) and modern browsers.',
         'Set up and maintain backend infrastructure on Google Compute Engine (Ubuntu Server) with Docker, Nginx, Certbot etc.',
         'Developed web-based tools to replace legacy lab software; maintained functionality across outdated systems (Windows XP with Chrome 49 / NW.js v0.14) and modern browsers.',
@@ -53,6 +53,18 @@ const data = {
         ['Ukrainian', 'Native'],
         ['English', 'Intermediate ((expressing myself)) / advanced ((understanding))'],
         ['Japanese', 'Basic ((self-taught))'],
+    ],
+    projects: [
+        [
+            'Cross-platform calculator',
+            'my personal PWA helper, that satisfies my needs on Linux, Windows & Android.',
+            ['[a=github.com/sultepronit/super-calc]', '[a=calc100.vercel.app]']
+        ],
+        [
+            'GAE serverless set-up',
+            'backend for several of my apps, bragging with my Go knowledge, Gemini AP usage etc.',
+            ['[a=github.com/sultepronit/stateless-app]', '(private, demo on request)']
+        ]
     ]
 };
 
