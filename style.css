@@ -50,6 +50,10 @@ a:hover {
     height: 1rem;
 }
 
+.vert-sp-3 {
+    height: 3rem;
+}
+
 .text-right {
     text-align: right;
 }
@@ -77,7 +81,7 @@ main hr {
 }
 
 .exp-list {
-    margin-left: 1em;
+    margin-left: 1.5em;
 }
 
 .abs-right-bottom {
@@ -86,10 +90,21 @@ main hr {
     right: 0;
 }
 
+#print {
+    display: block;
+    margin: auto;
+    padding: 0.2em 1em;
+    font: inherit;
+}
+
 /* print --------------------- */
 @media print {
     .print-only {
         display: block;
+    }
+
+    .no-print {
+        display: none !important;
     }
 }
 
