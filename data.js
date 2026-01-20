@@ -39,7 +39,7 @@ const data = {
         ]
     ],
     experience: [
-        'Built PWA applications for personal workflow optimization, including multi-platform calculator and language learning tools.',
+        'Built PWA applications for personal workflow optimization, including multi-platform calculator ([a=calc100.vercel.app]) and language learning tools.',
         // 'Developed web-based tools to replace legacy lab software; maintained functionality across outdated Windows systems (XP) and modern browsers.',
         'Set up and maintain backend infrastructure on Google Compute Engine (Ubuntu Server) with Docker, Nginx, Certbot etc.',
         'Developed web-based tools to replace legacy lab software; maintained functionality across outdated systems (Windows XP with Chrome 49 / NW.js v0.14) and modern browsers.',
@@ -54,7 +54,6 @@ const data = {
         ['English', 'Inermedaite ((expressing myself)) / advanced ((understanding))'],
         ['Japanese', 'Basic ((self-taught))'],
     ]
-
 };
 
 export default data;

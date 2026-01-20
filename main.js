@@ -1,4 +1,5 @@
 import data from './data.js';
+import { HTMLize } from './helpers.js';
 
 document.getElementById('print').addEventListener('click', () => print());
 
@@ -16,7 +17,7 @@ const parts = [`<header>
         <li>${data.location}</li>
         <li><a href="mailto:${data.email}">${data.email}</a></li>
         <li><a href="tel:${data.phone}">${data.phone}</a></li>
-        <li><a href="https://${data.github}">${data.github}</a></li>
+        <li><a href="https://${data.github}" target="_blank">${data.github}</a></li>
     </ul>
 </header>`];
 
@@ -43,6 +44,7 @@ parts.push(`<main>
 </main>`);
 // 
 
-output.innerHTML = parts.join('')
-    .replaceAll('((', '<span class="aux">(')
-    .replaceAll('))', ')</span>');
+// output.innerHTML = parts.join('')
+//     .replaceAll('((', '<span class="aux">(')
+//     .replaceAll('))', ')</span>');
+output.innerHTML = HTMLize(parts.join(''));
