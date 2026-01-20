@@ -51,7 +51,7 @@ const data = {
     education: 'Chemistry ((STEM)) | Ivan Franko National University of Lviv | 2011 – 2016',
     languages: [
         ['Ukrainian', 'Native'],
-        ['English', 'Inermedaite ((expressing myself)) / advanced ((understanding))'],
+        ['English', 'Intermediate ((expressing myself)) / advanced ((understanding))'],
         ['Japanese', 'Basic ((self-taught))'],
     ]
 };
