@@ -48,9 +48,9 @@ parts.push(`<main>
     <h3>Selected Work</h3>
     <ul class="no-mark">${projects}</ul>
     <div class="vert-sp-3"></div>
-    <p class="text-right print-only">Latest CV: <a href="https://${href}">${href}</a></p>
+    <p class="abs-right-bottom print-only">Latest CV: <a href="https://${href}">${href}</a></p>
 </main>`);
-// 
+// text-right
 
 // output.innerHTML = parts.join('')
 //     .replaceAll('((', '<span class="aux">(')
