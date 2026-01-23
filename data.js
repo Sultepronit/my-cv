@@ -21,7 +21,7 @@ const data = {
         ],
         [
             'Version Control & Deployment',
-            'Git, GitHub CLI, Vercel, Render, Netlify'
+            'Git, GitHub CLI, Vercel, Render, Google Cloud Platform'
         ],
         [
             'Backend & Databases',
@@ -37,7 +37,7 @@ const data = {
         // 'Configured personal backend servers (Docker conainered Node.js, PHP) with Nginx and Certbot for secure internal APIs.',
         'Set up and maintain backend infrastructure on Google Compute Engine (Ubuntu Server) with Docker, Nginx, Certbot etc.',
         // 'Developed web-based tools to replace legacy lab software; maintained functionality across outdated Windows systems (XP) and modern browsers.',
-        'Developed web-based tools to replace legacy lab software; maintained functionality across outdated systems (Windows XP with Chrome 49 / NW.js v0.14) and modern browsers.',
+        'Created web-based tools to replace legacy lab software; maintained functionality across outdated systems (Windows XP with Chrome 49 / NW.js v0.14) and modern browsers.',
         'Developed language learning tools integrating Gemini API and Google Translate API. Implemented custom logic to handle idiomatic expressions and context-aware translations where traditional tools fail.',
         // 'Built a unique search algorithm for Japanese characters using AI to identify visual and structural similarities between Kanji significantly improving the lookup process for learners.'
         // 'Experienced in full-cycle project workflow: coding, version control, deployment, debugging, and incremental improvement.'
